@@ -3,6 +3,7 @@ import 'dart:io';
 
 void show() {
   print("Função sem retorno e sem parâmetro");
+  verificarAprovacao();
 }
 
 void verificarAprovacao() {
@@ -41,7 +42,7 @@ void verificarAprovacao() {
 
 //Atividade 1
 void verificarRestanteSalario() {
-  //Prevenção contra digitação 
+  //Prevenção contra digitação
   try {
     print("Informe seu salário: ");
     var salarioString = stdin.readLineSync();
